@@ -3,7 +3,7 @@
 using namespace std;
 
 class DoMath{
-	protected:
+	private:
 		float real_ans;
 	public:
 		float n1;
