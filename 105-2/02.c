@@ -4,7 +4,7 @@
 
 float RightTriangleArea(int a, int b, float *c){
 	*c = sqrt((a * a) + (b * b));
-	return (a * b) / 2;
+	return ((float)a * (float)b) / 2;
 }
 
 int main(){
