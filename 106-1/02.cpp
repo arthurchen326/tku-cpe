@@ -6,7 +6,8 @@ int main()
 {
     int input,maxoccur,freq=0;
     int log[10]= {0};
-
+    
+    cout<<"Enter a series of digits (0~9) and exit with -1"<<endl;
     cin>>input;
     while(input!= -1)
     {
